@@ -50,4 +50,22 @@ price_range: This is the target variable with value of 0(low cost), 1(medium cos
 
 **Project 2- New York City Taxi Fare Prediction**<br>
 #We are predicting the fare amount (inclusive of tolls) for a taxi ride in New York City given the pickup and dropoff locations.<br>
-While we will get a basic estimate based on just the distance between the two points, this will result in an RMSE of $5-$8, depending on the model used (see the starter code for an example of this approach in Kernels). 
+#While you can get a basic estimate based on just the distance between the two points, this will result in an RMSE of 8, depending on the model used (see the starter code for an example of this approach in Kernels)<br>
+#the aim is to predict the fare of a taxi ride given the starting time, the starting and ending latitude / longitude, and the number of passengers.<br>
+**Let’s look at the features of this data :**<br>
+
+key - the key represents the pickup date and time in local time (NYC)
+
+fare_amount - a USD value to two decimal places representing the cost of the trip, tolls included
+
+pickup_datetime - the pickup date and time for the specific trip in UTC format
+
+pickup_longitude - the pickup longitude position, presumably from an on-board GPS
+
+pickup_latitude - the pickup latitude position
+
+dropoff_longitude - the dropoff longitude position
+
+dropoff_latitude - the dropoff latitude position
+
+passenger_count - an integer value representing the number of passengers in the taxi
