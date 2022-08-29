@@ -49,6 +49,7 @@ wifi: Has wifi or not
 price_range: This is the target variable with value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).
 
 **Project 2- New York City Taxi Fare Prediction**<br>
+
 #We are predicting the fare amount (inclusive of tolls) for a taxi ride in New York City given the pickup and dropoff locations.<br>
 #While you can get a basic estimate based on just the distance between the two points, this will result in an RMSE of 8, depending on the model used (see the starter code for an example of this approach in Kernels)<br>
 #the aim is to predict the fare of a taxi ride given the starting time, the starting and ending latitude / longitude, and the number of passengers.<br>
